@@ -1,0 +1,59 @@
+Server started and listening on port 27015
+Server started and listening on port 27015
+Server started and listening on port 27015
+Server started and listening on port 27015
+[LOGIN] User ana (5) logged in
+[LOGOFF] User ana (5) logged off
+[AUTH] User a (-188) failed to log in with password a
+Server started and listening on port 27015
+[EXCEPTION] ExceptionCode=0xc0000005, EIP=0xedcb8b, ESP=0x4ff768
+[LOGIN] User ana (5) logged in
+Server started and listening on port 27015
+Server started and listening on port 27015
+Server started and listening on port 27015
+Server started and listening on port 27015
+Server started and listening on port 27015
+Server started and listening on port 27015
+Server started and listening on port 27015
+[EXCEPTION] ExceptionCode=0xc0000005, EIP=0xedcb8b, ESP=0x133f738
+[EXCEPTION] ExceptionCode=0xc0000005, EIP=0xedcb8b, ESP=0x133f738
+[EXCEPTION] ExceptionCode=0xc0000005, EIP=0xedcb8b, ESP=0x133f738
+[EXCEPTION] ExceptionCode=0xc0000005, EIP=0xedcb8b, ESP=0x133f738
+[EXCEPTION] ExceptionCode=0xc0000005, EIP=0xedcb8b, ESP=0x133f738
+[AUTH] User b (-126) failed to log in with password ana
+[AUTH] User b (-126) failed to log in with password password
+[AUTH] User b (-126) failed to log in with password password
+[AUTH] User test (0) failed to log in with password password
+[LOGIN] User test (0) logged in
+Server started and listening on port 27015
+Server started and listening on port 27015
+[EXCEPTION] ExceptionCode=0xc0000005, EIP=0xedcb8b, ESP=0x8ff33c
+[LOGIN] User ana (5) logged in
+Server started and listening on port 27015
+Server started and listening on port 27015
+[LOGIN] User ana (5) logged in
+[LOGOFF] User ana (5) logged off
+[LOGIN] User test (0) logged in
+Server started and listening on port 27015
+[LOGIN] User ana (5) logged in
+Server started and listening on port 27015
+Server started and listening on port 27015
+Server started and listening on port 27015
+[LOGIN] User ana (5) logged in
+Server started and listening on port 27015
+[EXCEPTION] ExceptionCode=0xc0000005, EIP=0x11acb8b, ESP=0xd9f204
+[LOGIN] User ana (5) logged in
+[EXCEPTION] ExceptionCode=0xc0000005, EIP=0x1168686, ESP=0xd9f218
+Server started and listening on port 27015
+[LOGIN] User ana (5) logged in
+Server started and listening on port 27015
+[AUTH] User a (-188) failed to log in with password parola
+[AUTH] User a (-188) failed to log in with password password
+[LOGIN] User ana (5) logged in
+[LOGOFF] User ana (5) logged off
+[EXCEPTION] ExceptionCode=0xc0000005, EIP=0x11acb8b, ESP=0xeff394
+[EXCEPTION] ExceptionCode=0xc0000005, EIP=0x11acb8b, ESP=0xeff394
+[LOGIN] User ana (5) logged in
+Server started and listening on port 27015
+[LOGIN] User ana (5) logged in
+[EXCEPTION] ExceptionCode=0xc0000005, EIP=0x1168686, ESP=0xcff278

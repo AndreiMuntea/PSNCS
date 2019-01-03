@@ -1,0 +1,99 @@
+===========================================
+
+Numar: 1
+Localizare: data.c
+Tip vulnerabilitate: information leakeage, pastrarea utilizatorilor si a parolelor hardcodate in cod.
+Metoda: code review
+Severitate: 2
+Riscuri: cu acces la executabilul server.exe s-ar putea afla utilizatorii si parolele lor
+Remediere: folosirea unei baze de date in care sa se stocheze aceste informatii plus folosirea unui algoritm de criptare a parolelor sa nu fie tinute in plain-text
+
+===========================================
+
+Numar: 2
+Localizare: server.c, functia InterpretCommand
+Tip vulnerabilitate: information leakeage, cand te loghezi, introduci intai numele de utilizator si abia daca acesta este corect, introduci parola
+Metoda: code execution
+Severitate: 1
+Riscuri: poti afla lista de utilizatori inregistrati
+Remediere: sa se impuna ca la login sa se dea atat utilizatorul cat si parola si sa nu se trimita informatii de genul "parola incorecta" sau "utilizator incorect" care ar putea da hinturi atacatorului.
+
+===========================================
+
+Numar: 3
+Localizare: server.c, functia InterpretCommand
+Tip vulnerabilitate: information leakeage, poti sa incerci sa introduci oricate parole pentru un utilizator 
+Metoda: code execution
+Severitate: 2
+Riscuri: odata ce stii utilizatorul, poti sa incerci parole la intamplare de oricate ori si, intr-un final, poti accesa informatiile private ale altui utilizator 
+Remediere: stabilirea unui numar maxim de retry-uri
+
+===========================================
+
+Numar: 4
+Localizare: commands.c, functia CmdHandleInfo
+Tip vulnerabilitate: denial of service, daca se introduce argumentul 0 pentru comanda info va rezulta un deadlock (in client se face send dupa care se face recv() dupa raspuns, in server raspunsul o sa aiba 0 bytes => nu se iese din recv() de la client, serverul face un recv() dupa comanda => avem client si server care asteapta unul dupa celalalt)
+Metoda: code review + code execution
+Severitate: 2
+Riscuri: se poate ramane cu 2 procese care doar consuma resursele procesorului; serverul nu mai raspunde la nicio comanda
+Remediere: tratarea cazului in care serverul trebuie sa trimita 0 octeti inapoi la client
+
+===========================================
+
+Numar: 5
+Localizare: commands.c, functia CmdHandleGet 
+Tip vulnerabilitate: information leakage, nu se verifica daca calea spre mesaj contine "..", astfel un utilizator oarecare are acces la fisiere la care in mod normal nu ar trebui sa aiba (ex: mesajele altui utilizator, sau fisierul de log al serverului)
+Metoda: code review + code execution
+Severitate: 3
+Riscuri: fisierele text din sistemul pe care ruleaza serverul pot fi citite de orice utilizator 
+Remediere: tratarea cazului in care utilizatorul incearca sa deschida fisiere care nu sunt din directorul dedicat lui.
+
+===========================================
+
+Numar: 6
+Localizare: commands.c, functia CmdHandleGet 
+Tip vulnerabilitate: denial of service din cauza buffer overflow, daca calea spre fisier contine mai mult de 64 de caractere o sa crape aplicatia cu invalid parameter
+Metoda: code review + code execution
+Severitate: 1
+Riscuri: oprirea serverului din functionare
+Remediere: verificarea lungimii bufferului inainte de copiere
+
+===========================================
+
+Numar: 7
+Localizare: commands.c, functia CmdHandlePass 
+Tip vulnerabilitate: buffer overflow, strcpy fara verificarea dimensiunii maxime a string-ului
+Metoda: code review
+Severitate: 1
+Riscuri: daca serverul nu este buildat cu flagurile default prin care verifica daca out of bounds access, atunci prin exploatare (locala) se poate executa cod arbitrar in interiorul acestui proces (neprivilegiat)
+Remediere: verificarea dimensiunii maxime a string-ului inainte de a se folosi strcpy
+
+===========================================
+
+Numar: 8
+Localizare: commands.c, functia CmdHandleUser 
+Tip vulnerabilitate: integer underflow, in for, se face --i cu conditia de oprire i>=0, iar i este pe DWORD
+Metoda: code review
+Severitate: 1
+Riscuri: daca, in momentul in care se face underflow se nimereste intr-o adresa valida, unde se afla stringul cautat, poti sa ajungi logat cu un utilizator care nu exista. 
+Remediere: folosirea unui tip de date signed (long long) pentru i sau parcurs de la 0 la nr useri - 1
+
+===========================================
+
+Numar: 9
+Localizare: commands.c, functia CmdHandleList 
+Tip vulnerabilitate: denial of service din cauza buffer overflow, daca numele fisierelor contin mai mult de 4096 caractere, o sa crape aplicatia cu invalid parameter
+Metoda: code review + code execution
+Severitate: 1
+Riscuri: oprirea serverului din functionare
+Remediere: verificarea lungimii bufferului inainte de copiere
+
+===========================================
+
+Numar: 10
+Localizare: commands.c, functia CmdHandleInfo
+Tip vulnerabilitate: information leakage 
+Metoda: code review + code execution
+Severitate: 3
+Riscuri: daca se da parametrul "info " sscanf_s o sa returneze -1 => o sa faca underflow si o sa dumpeze toata baza de date a userilor
+Remediere: verificarea statusului returnat de sscanf_s

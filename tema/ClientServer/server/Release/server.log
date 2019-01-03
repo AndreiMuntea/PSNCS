@@ -1,0 +1,1382 @@
+﻿Build started 2019-01-03 2:02:56 PM.
+Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\amuntea\AppData\Roaming
+COMMANDER_DRIVE = C:
+COMMANDER_EXE = C:\totalcmd\TOTALCMD64.EXE
+COMMANDER_INI = C:\Users\amuntea\AppData\Roaming\GHISLER\wincmd.ini
+COMMANDER_INSTANCE = 1
+COMMANDER_PATH = C:\totalcmd
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = AMUNTEA-LPT
+ComSpec = C:\WINDOWS\system32\cmd.exe
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING = Default
+HOMEDRIVE = C:
+HOMEPATH = \Users\amuntea
+LOCALAPPDATA = C:\Users\amuntea\AppData\Local
+LOGONSERVER = \\CLJDC01
+MSBuildLoadMicrosoftTargetsReadOnly = true
+NUMBER_OF_PROCESSORS = 4
+OneDrive = C:\Users\amuntea\OneDrive
+OS = Windows_NT
+Path = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries\x86;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Windows\SysWOW64\WindowsPowerShell\v1.0\Modules\TShell\TShell\;C:\Program Files\Git\cmd;c:\users\amuntea\appdata\local\programs\python\Python35\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\work\path\;C:\Program Files\Microsoft VS Code\bin;D:\Faculta\Path\nasm-2.13.03;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Users\amuntea\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\amuntea\AppData\Local\Programs\Python\Python35-32\;C:\Users\amuntea\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\amuntea\AppData\Local\Programs\Python\Python35\;C:\Users\amuntea\AppData\Local\Microsoft\WindowsApps;C:\Buildsystem;C:\Program Files\Microsoft VS Code\bin;c:\work\ASM\ASM\ASM\asm1\path;C:\Users\amuntea\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;D:\Faculta\Path;d:\Faculta\Path\bin;C:\Users\amuntea\AppData\Local\GitHubDesktop\bin;C:\work\php;
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PHPRC = c:\work\php
+PkgDefApplicationConfigFile = C:\Users\amuntea\AppData\Local\Microsoft\VisualStudio\14.0\devenv.exe.config
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 8e09
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\Intel\
+PUBLIC = C:\Users\Public
+SESSIONNAME = Console
+SystemDrive = C:
+SystemRoot = C:\WINDOWS
+TEMP = C:\Users\amuntea\AppData\Local\Temp
+TMP = C:\Users\amuntea\AppData\Local\Temp
+TRACE_FORMAT_SEARCH_PATH = d:\TMF\tmf
+USERDNSDOMAIN = CLJ.BITDEFENDER.BIZ
+USERDOMAIN = CLJ
+USERDOMAIN_ROAMINGPROFILE = CLJ
+USERNAME = amuntea
+USERPROFILE = C:\Users\amuntea
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+VisualStudioDir = C:\Users\amuntea\Documents\Visual Studio 2015
+VisualStudioEdition = Microsoft Visual Studio Professional 2015
+VisualStudioVersion = 14.0
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+VSLANG = 1033
+VSSDK140Install = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\
+windir = C:\WINDOWS
+_NT_SYMBOL_PATH = SRV*d:\symbols*http://msdl.microsoft.com/download/symbols
+_PTVS_PID = 11204
+
+14:02:56.581     1>Project "d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj" on node 2 (Clean target(s)).
+14:02:56.581     1>Initial Properties:
+                   _AfterCompileWinFXInternalDependsOn = 
+                           PrepareResourcesForSatelliteAssemblies;
+                           MergeLocalizationDirectives;
+                           AfterCompileWinFX
+                       
+                   _ApplicableDebuggers = Desktop
+                   _BuildActionType = Clean
+                   _BuildSuffix = 
+                   :VCEnd
+                   _CheckDev11ToolsInstalled = true
+                   _CompileTargetNameForLocalType = _CompileTemporaryAssembly
+                   _DebugSymbolsProduced = false
+                   _DefaultPlatform = win32
+                   _DeploymentApplicationManifestIdentity = server.exe
+                   _DeploymentBuiltUpdateInterval = 0
+                   _DeploymentBuiltUpdateIntervalUnits = Days
+                   _DeploymentDeployManifestIdentity = server.application
+                   _DeploymentFileMappingExtension = 
+                   _DeploymentPublishableProjectDefault = true
+                   _DeploymentTargetApplicationManifestFileName = server.exe.manifest
+                   _DeploymentUrl = 
+                   _Dev11Installed = 
+                   _Dev11WDExpressInstalled = 
+                   _DocumentationFileProduced = false
+                   _FullFrameworkReferenceAssemblyPaths = C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+                   _GenerateBindingRedirectsIntermediateAppConfig = Release\server.vcxproj.server.exe.config
+                   _GetChildProjectCopyToOutputDirectoryItems = true
+                   _IgnoreInstalledPlatformToolset_v110 = true
+                   _IgnoreInstalledPlatformToolset_v110_wp80 = true
+                   _IgnoreInstalledPlatformToolset_v110_xp = true
+                   _InvalidConfigurationMessageText = The OutputPath property is not set for project 'server.vcxproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Release'  Platform='Win32'.  This error may also appear if some other project is trying to follow a project-to-project reference to this project, this project has been unloaded or is not included in the solution, and the referencing project does not build using the same or an equivalent Configuration or Platform.
+                   _LatestWdkDriverAppToolset = WindowsApplicationForDrivers10.0
+                   _LatestWdkKmDriverToolset = WindowsKernelModeDriver10.0
+                   _LatestWdkUmDriverToolset = WindowsUserModeDriver10.0
+                   _NT_SYMBOL_PATH = SRV*d:\symbols*http://msdl.microsoft.com/download/symbols
+                   _NT_TARGET_VERSION = 0xA000001
+                   _NT_TARGET_VERSION_LONGHORN = 0x0600
+                   _NT_TARGET_VERSION_NT4 = 0x0400
+                   _NT_TARGET_VERSION_VISTA = 0x0600
+                   _NT_TARGET_VERSION_WIN10 = 0x0A00
+                   _NT_TARGET_VERSION_WIN7 = 0x0601
+                   _NT_TARGET_VERSION_WIN8 = 0x0602
+                   _NT_TARGET_VERSION_WINV63 = 0x0603
+                   _NuGetRuntimeIdentifierPlatformTargetSuffix = -x86
+                   _NuGetRuntimeIdentifierWithoutAot = win-x86
+                   _OriginalConfiguration = Release
+                   _OriginalPlatform = Win32
+                   _PlatformDefaultPropsPath = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\\Platforms\Win32\\Platform.default.props
+                   _PlatformFolder = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Platforms\Win32\
+                   _PlatformToolsetFriendlyNameFor_v100 = Visual Studio 2010 (v100)
+                   _PlatformToolsetFriendlyNameFor_v110 = Visual Studio 2012 (v110)
+                   _PlatformToolsetFriendlyNameFor_v110_wp80 = Windows Phone 8.0 (v110_wp80)
+                   _PlatformToolsetFriendlyNameFor_v110_xp = Visual Studio 2012 - Windows XP (v110_xp)
+                   _PlatformToolsetFriendlyNameFor_v120 = Visual Studio 2013 (v120)
+                   _PlatformToolsetFriendlyNameFor_v120_wp81 = Windows Phone 8.1 (v120_wp81)
+                   _PlatformToolsetFriendlyNameFor_v120_xp = Visual Studio 2013 - Windows XP (v120_xp)
+                   _PlatformToolsetFriendlyNameFor_v140 = Visual Studio 2015 (v140)
+                   _PlatformToolsetFriendlyNameFor_v140_clang_3_7 = Clang 3.7 with Microsoft CodeGen (v140_clang_3_7)
+                   _PlatformToolsetFriendlyNameFor_v140_clang_c2 = Visual Studio 2015 - Clang with Microsoft CodeGen (v140_clang_c2)
+                   _PlatformToolsetFriendlyNameFor_v140_xp = Visual Studio 2015 - Windows XP (v140_xp)
+                   _PlatformToolsetFriendlyNameFor_v90 = Visual Studio 2008 (v90)
+                   _PlatformToolsetShortNameFor_v100 = Visual Studio 2010
+                   _PlatformToolsetShortNameFor_v110 = Visual Studio 2012
+                   _PlatformToolsetShortNameFor_v110_wp80 = Windows Phone 8.0
+                   _PlatformToolsetShortNameFor_v110_xp = Visual Studio 2012 - Windows XP
+                   _PlatformToolsetShortNameFor_v120 = Visual Studio 2013
+                   _PlatformToolsetShortNameFor_v120_wp81 = Windows Phone 8.1
+                   _PlatformToolsetShortNameFor_v90 = Visual Studio 2008
+                   _ProjectDefaultTargets = Build
+                   _ProjectFileVersion = 14.0.25431.1
+                   _ProjectSpecificProjectJsonFile = server.project.json
+                   _PropertySheetDisplayName = Whole Program Optimization
+                   _RequireMCPass2ForMainAssembly = false
+                   _RequireMCPass2ForSatelliteAssemblyOnly = false
+                   _ResolveReferenceDependencies = false
+                   _ResourceCompileDependsOn = 
+                         
+                         ;
+                         BeforeResourceCompile;
+                       ;
+                         ;
+                         MakeDirsForResourceCompile;
+                         ResourceCompile;
+                         
+                         ;
+                         AfterResourceCompile;
+                       
+                       
+                   _ResourceNameInMainAssembly = server.g.resources
+                   _SGenDllCreated = false
+                   _SGenDllName = server.XmlSerializers.dll
+                   _SGenGenerateSerializationAssembliesConfig = Auto
+                   _TargetFrameworkDirectories = C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+                   _ToolsetFound = true
+                   _ToolsetPropsPath = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\\Platforms\Win32\PlatformToolsets\v140\Toolset.props
+                   _ToolsetTargetsPath = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\\Platforms\Win32\PlatformToolsets\v140\Toolset.targets
+                   _UpgradePlatformToolsetFor_v100 = v140
+                   _UpgradePlatformToolsetFor_v110 = v140
+                   _UpgradePlatformToolsetFor_v110_xp = v140_xp
+                   _UpgradePlatformToolsetFor_v120 = v140
+                   _UpgradePlatformToolsetFor_v120_xp = v140_xp
+                   _UpgradePlatformToolsetFor_v140 = SDK Upgrade
+                   _UpgradePlatformToolsetFor_v140_xp = v140_xp
+                   _UpgradePlatformToolsetFor_v90 = v140
+                   _UpgradePlatformToolsetFor_WindowsApplicationForDrivers10_0 = WindowsApplicationForDrivers10.0
+                   _UpgradePlatformToolsetFor_WindowsApplicationForDrivers8_0 = WindowsApplicationForDrivers10.0
+                   _UpgradePlatformToolsetFor_WindowsApplicationForDrivers8_1 = WindowsApplicationForDrivers10.0
+                   _UpgradePlatformToolsetFor_WindowsApplicationForDrivers8_2 = WindowsApplicationForDrivers10.0
+                   _UpgradePlatformToolsetFor_WindowsKernelModeDriver10_0 = WindowsKernelModeDriver10.0
+                   _UpgradePlatformToolsetFor_WindowsKernelModeDriver8_0 = WindowsKernelModeDriver10.0
+                   _UpgradePlatformToolsetFor_WindowsKernelModeDriver8_1 = WindowsKernelModeDriver10.0
+                   _UpgradePlatformToolsetFor_WindowsKernelModeDriver8_2 = WindowsKernelModeDriver10.0
+                   _UpgradePlatformToolsetFor_WindowsUserModeDriver10_0 = WindowsUserModeDriver10.0
+                   _UpgradePlatformToolsetFor_WindowsUserModeDriver8_0 = WindowsUserModeDriver10.0
+                   _UpgradePlatformToolsetFor_WindowsUserModeDriver8_1 = WindowsUserModeDriver10.0
+                   _UpgradePlatformToolsetFor_WindowsUserModeDriver8_2 = WindowsUserModeDriver10.0
+                   _VC_x64_ToolsInstalled = true
+                   _WdkProjectUpgraderName = WdkProjectUpgrader
+                   AddAdditionalExplicitAssemblyReferences = true
+                   AddAppConfigToBuildOutputs = true
+                   AddBuildInfoToAssembly = false
+                   AdditionalExplicitAssemblyReferences = System.Core;
+                   AfterBuildCompileTargets = 
+                         ;
+                         AfterBuildCompileEvent;
+                       
+                   AfterBuildGenerateSourcesTargets = 
+                         
+                         ;
+                         AfterBuildGenerateSources;
+                       ;
+                         AfterBuildGenerateSourcesEvent;
+                       
+                   AfterBuildLinkTargets = 
+                         ;RunMergeNativeCodeAnalysis;RunNativeCodeAnalysis;
+                         CreateSatelliteAssemblies;
+                         _Appverifier;
+                         _Deploy;
+                         PrepareForRun;
+                         PostBuildEvent;
+                       
+                   AfterClCompileTargets = 
+                         ;
+                         AfterClCompile;
+                       
+                   AfterImpLibTargets = 
+                         ;
+                         AfterImpLib;
+                       
+                   AfterLibTargets = 
+                         ;
+                         AfterLib;
+                       
+                   AfterLinkTargets = 
+                         ;
+                         AfterLink;
+                       
+                   AfterManifestTargets = 
+                         ;
+                         AfterManifest;
+                       
+                   AfterMidlTargets = 
+                         ;
+                         AfterMidl;
+                       
+                   AfterResourceCompileTargets = 
+                         ;
+                         AfterResourceCompile;
+                       
+                   AllowedReferenceAssemblyFileExtensions = 
+                         .winmd;
+                         .dll;
+                         .exe
+                       
+                   AllowedReferenceRelatedFileExtensions = 
+                         .pdb;
+                         .xml;
+                         .pri
+                       
+                   AllowLocalNetworkLoopback = true
+                   AllProjectOutputGroupsDependsOn = 
+                         ;
+                         BuiltProjectOutputGroup;
+                         DebugSymbolsProjectOutputGroup;
+                         DocumentationProjectOutputGroup;
+                         SatelliteDllsProjectOutputGroup;
+                         SourceFilesProjectOutputGroup;
+                         ContentFilesProjectOutputGroup;
+                         SGenFilesOutputGroup
+                       
+                   ALLUSERSPROFILE = C:\ProgramData
+                   AlwaysCompileMarkupFilesInSeparateDomain = true
+                   APPDATA = C:\Users\amuntea\AppData\Roaming
+                   AssemblyFoldersSuffix = AssemblyFoldersEx
+                   AssemblyName = server
+                   AssemblySearchPaths = 
+                         {CandidateAssemblyFiles};
+                         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib;;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib;;
+                         {HintPathFromItem};
+                         {TargetFrameworkDirectory};
+                         {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx};
+                         {AssemblyFolders};
+                         {GAC};
+                         {RawFileName};
+                         D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\
+                       
+                   AssignTargetPathsDependsOn = 
+                   Attach = false
+                   AutoUnifyAssemblyReferences = false
+                   AvailablePlatforms = Any CPU,x86,x64
+                   BaseIntermediateOutputPath = obj\
+                   BaseNuGetRuntimeIdentifier = win
+                   BeforeBuildCompileTargets = 
+                         ;
+                       
+                   BeforeBuildGenerateSourcesTargets = 
+                         
+                         ;
+                         BeforeBuildGenerateSources;
+                       ;
+                       
+                   BeforeClCompileTargets = 
+                         ;
+                         BeforeClCompile;
+                       
+                   BeforeImpLibTargets = 
+                         ;
+                         BeforeImpLib;
+                       
+                   BeforeLibTargets = 
+                         ;
+                         BeforeLib;
+                       
+                   BeforeLinkTargets = 
+                         ;
+                         BeforeLink;
+                       
+                   BeforeManifestTargets = 
+                         ;
+                         BeforeManifest;
+                       
+                   BeforeMidlTargets = 
+                         ;
+                         BeforeMidl;
+                       
+                   BeforeResourceCompileTargets = 
+                         ;
+                         BeforeResourceCompile;
+                       
+                   BuildCompileAction = _BuildCompileAction
+                   BuildCompileTargets = 
+                         ;
+                         _ClCompile;
+                         _ResGen;
+                         _ResourceCompile;
+                         
+                         ;
+                         _ImpLib;
+                         _Lib;
+                       ;
+                       
+                   BuildDependsOn = 
+                         _PrepareForBuild;
+                         
+                         ResolveReferences;
+                         PrepareForBuild;
+                         InitializeBuildStatus;
+                         BuildGenerateSources;
+                         BuildCompile;
+                         BuildLink;
+                       ;
+                         AfterBuild;
+                         FinalizeBuildStatus;
+                       
+                   BuildGenerateSourcesAction = _BuildGenerateSourcesAction
+                   BuildGenerateSourcesTargets = 
+                         ;
+                         PreBuildEvent;
+                         _Xsd;
+                         _Midl;
+                       
+                   BuildInfoBinPath = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\BuildInfo
+                   BuildInfoTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\BuildInfo\Microsoft.VisualStudio.ReleaseManagement.BuildInfo.targets
+                   BuildingInsideVisualStudio = true
+                   BuildingProject = true
+                   BuildInParallel = true
+                   BuildLibTargets = 
+                         ;
+                         _ImpLib;
+                         _Lib;
+                       
+                   BuildLinkAction = _BuildLinkAction
+                   BuildLinkTargets = 
+                         ;
+                         ComputeLegacyManifestEmbedding;
+                         _Link;
+                         _ALink;
+                         _Manifest;
+                         RegisterOutput;
+                         _XdcMake;
+                         _BscMake;
+                       
+                   BuildProjectReferences = true
+                   BuildSteps = 
+                         ResolveReferences;
+                         PrepareForBuild;
+                         InitializeBuildStatus;
+                         BuildGenerateSources;
+                         BuildCompile;
+                         BuildLink;
+                       
+                   BuildSystem = MSBuild
+                   BuildTaskAssembly = PresentationBuildTasks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+                   BuildType = Clean
+                   BuiltProjectOutputGroupDependsOn = PrepareForBuild
+                   CAExcludePath = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\winrt;;
+                   CharacterSet = Unicode
+                   CleanDependsOn = 
+                         
+                         _PrepareForClean;
+                         
+                         
+                         BeforeClean;
+                         UnmanagedUnregistration;
+                         CoreClean;
+                         CleanReferencedProjects;
+                         CleanPublishFolder;
+                         AfterClean
+                       ;
+                         EntityClean;
+                       ;
+                       ;
+                         CppClean
+                       
+                   CleanFile = server.vcxproj.FileListAbsolute.txt
+                   CLRSupport = false
+                   ClYieldDuringToolExecution = true
+                   CodeAnalysisApplyLogFileXsl = false
+                   CodeAnalysisFailOnMissingRules = false
+                   CodeAnalysisForceOutput = true
+                   CodeAnalysisGenerateSuccessFile = true
+                   CodeAnalysisIgnoreGeneratedCode = true
+                   CodeAnalysisIgnoreInvalidTargets = true
+                   CodeAnalysisIgnoreMissingIndirectReferences = false
+                   CodeAnalysisInputAssembly = D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\server.exe
+                   CodeAnalysisLogFile = D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\server.exe.CodeAnalysisLog.xml
+                   CodeAnalysisModuleSuppressionsFile = GlobalSuppressions.cpp
+                   CodeAnalysisOutputToConsole = false
+                   CodeAnalysisOverrideRuleVisibilities = false
+                   CodeAnalysisPath = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\FxCop\
+                   CodeAnalysisQuiet = false
+                   CodeAnalysisRuleDirectories = ;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\FxCop\\Rules
+                   CodeAnalysisRuleSet = NativeRecommendedRules.ruleset
+                   CodeAnalysisRuleSetDirectories = ;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\\Rule Sets
+                   CodeAnalysisSaveMessagesToReport = Active
+                   CodeAnalysisSearchGlobalAssemblyCache = true
+                   CodeAnalysisStaticAnalysisDirectory = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\
+                   CodeAnalysisSucceededFile = D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\server.exe.lastcodeanalysissucceeded
+                   CodeAnalysisSummary = false
+                   CodeAnalysisTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\CodeAnalysis\Microsoft.CodeAnalysis.targets
+                   CodeAnalysisTimeout = 120
+                   CodeAnalysisTLogFile = Release\CodeAnalysis.read.1.tlog
+                   CodeAnalysisTreatWarningsAsErrors = false
+                   CodeAnalysisUpdateProject = false
+                   CodeAnalysisUseTypeNameInSuppression = true
+                   CodeAnalysisVerbose = false
+                   COMMANDER_DRIVE = C:
+                   COMMANDER_EXE = C:\totalcmd\TOTALCMD64.EXE
+                   COMMANDER_INI = C:\Users\amuntea\AppData\Roaming\GHISLER\wincmd.ini
+                   COMMANDER_INSTANCE = 1
+                   COMMANDER_PATH = C:\totalcmd
+                   CommonBuildOnlyTargets = 
+                         PrepareForBuild;
+                         ResolveReferences;
+                       
+                   CommonProgramFiles = C:\Program Files (x86)\Common Files
+                   CommonProgramW6432 = C:\Program Files\Common Files
+                   CommonTargetsPath = C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets
+                   CommonXamlResourcesDirectory = C:\Program Files (x86)\MSBuild\14.0\bin\en-US\
+                   CompileDependsOn = 
+                           
+                         ResolveReferences;
+                         ResolveKeySource;
+                         SetWin32ManifestProperties;
+                         _GenerateCompileInputs;
+                         BeforeCompile;
+                         _TimeStampBeforeCompile;
+                         CoreCompile;
+                         _TimeStampAfterCompile;
+                         AfterCompile;
+                       ;
+                           _AfterCompileWinFXInternal
+                       
+                   CompileLicxFilesDependsOn = 
+                   CompileTargetNameForTemporaryAssembly = CompileTemporaryAssembly
+                   ComputeCompileInputsTargets = 
+                         
+                         
+                         ;
+                         ComputeMIDLGeneratedCompileInputs;
+                       ;
+                         ComputeCLInputPDBName;
+                         ComputeReferenceCLInput;
+                         WarnCompileDuplicatedFilename
+                       ;
+                         FixupCLCompileOptions;
+                       
+                   ComputeImpLibInputsTargets = 
+                           
+                         
+                         
+                         
+                         ;
+                         ComputeRCGeneratedLibInputs;
+                       ;
+                         ComputeRCGeneratedImpLibInputs;
+                       ;
+                         ComputeCustomBuildOutput;
+                       ;
+                         ComputeCLGeneratedImpLibInputs;
+                       ;
+                           ComputeImpLibInputsFromProject;
+                         
+                   ComputeIntermediateSatelliteAssembliesDependsOn = 
+                         CreateManifestResourceNames
+                       
+                   ComputeLibInputsTargets = 
+                         ComputeLibAdditionalOptions;
+                         
+                         
+                           
+                         
+                         
+                         ;
+                         ComputeRCGeneratedLibInputs;
+                       ;
+                         ComputeCustomBuildOutput;
+                       ;
+                         ComputeCLGeneratedLibInputs;
+                       ;
+                           ComputeLibInputsFromProject;
+                         ;
+                         ComputeReferenceLibInputs;
+                       
+                       
+                   ComputeLinkInputsTargets = 
+                         
+                           
+                         
+                         
+                         
+                         ;
+                         ComputeRCGeneratedLinkInputs;
+                       ;
+                         ComputeManifestGeneratedLinkerInputs;
+                       ;
+                         ComputeCustomBuildOutput;
+                       ;
+                         ComputeCLGeneratedLinkInputs;
+                       ;
+                           ComputeLinkInputsFromProject;
+                         ;
+                         ComputeReferenceLinkInputs;
+                       
+                   ComputeManifestInputsTargets = 
+                         ;
+                         ComputeManifestInputsTargets;
+                       
+                   COMPUTERNAME = AMUNTEA-LPT
+                   ComReferenceExecuteAsTool = false
+                   ComReferenceNoClassMembers = false
+                   ComSpec = C:\WINDOWS\system32\cmd.exe
+                   Configuration = Release
+                   ConfigurationName = Release
+                   ConfigurationType = Application
+                   ConsiderPlatformAsProcessorArchitecture = true
+                   ContentFilesProjectOutputGroupDependsOn = PrepareForBuild;AssignTargetPaths;PrepareForBuild;AssignTargetPaths;MakeDirsForFxc
+                   ContinueOnError = false
+                   CopyNuGetImplementations = true
+                   CoreBuildDependsOn = 
+                         BuildOnlySettings;
+                         PrepareForBuild;
+                         PreBuildEvent;
+                         ResolveReferences;
+                         PrepareResources;
+                         ResolveKeySource;
+                         Compile;
+                         ExportWindowsMDFile;
+                         UnmanagedUnregistration;
+                         GenerateSerializationAssemblies;
+                         CreateSatelliteAssemblies;
+                         GenerateManifests;
+                         GetTargetPath;
+                         PrepareForRun;
+                         UnmanagedRegistration;
+                         IncrementalClean;
+                         PostBuildEvent
+                       
+                   CoreCleanDependsOn = 
+                   CoreCompileDependsOn = 
+                           DesignTimeXamlMarkupCompilation;
+                           
+                             DesignTimeMarkupCompilation;
+                             
+                         
+                       
+                   CoreCppCleanDependsOn = 
+                   CoreResGenDependsOn = 
+                   CppCleanDependsOn = 
+                         BeforeCppClean;
+                         ;
+                         CoreCppClean;
+                         AfterCppClean;
+                       ;PGInstrumentedClean
+                   CppCleanLogFile = server.Build.CppClean.log
+                   CppWindowsStoreUnitTestLibraryType = false
+                   CreateCustomManifestResourceNamesDependsOn = 
+                   CreateHardLinksForCopyAdditionalFilesIfPossible = false
+                   CreateManifestResourceNamesDependsOn = 
+                   CreateSatelliteAssembliesDependsOn = 
+                         _GenerateSatelliteAssemblyInputs;
+                         ComputeIntermediateSatelliteAssemblies;
+                         GenerateSatelliteAssemblies
+                       
+                   CRTDefinitionalFile = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\VCProjectDefault\Microsoft.AppX.VCFrameworkReferences.xml
+                   CrtSDKReferenceInclude = Microsoft.VCLibs, Version=14.0
+                   CrtSDKReferenceVersion = 14.0
+                   CurrentSolutionConfigurationContents = <SolutionConfiguration>
+                   <ProjectConfiguration Project="{68512b78-d647-4c02-961c-7bbee49c70fa}" AbsolutePath="d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj">Release|Win32</ProjectConfiguration>
+                   <ProjectConfiguration Project="{1c0e467e-3f63-4c9b-9e5d-e0c437c62aaa}" AbsolutePath="d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\client\client.vcxproj">Release|Win32</ProjectConfiguration>
+                   </SolutionConfiguration>
+                   CustomAfterMicrosoftCommonProps = C:\Program Files (x86)\MSBuild\v14.0\Custom.After.Microsoft.Common.props
+                   CustomAfterMicrosoftCommonTargets = C:\Program Files (x86)\MSBuild\v14.0\Custom.After.Microsoft.Common.targets
+                   CustomBeforeMicrosoftCommonProps = C:\Program Files (x86)\MSBuild\v14.0\Custom.Before.Microsoft.Common.props
+                   CustomBeforeMicrosoftCommonTargets = C:\Program Files (x86)\MSBuild\v14.0\Custom.Before.Microsoft.Common.targets
+                   CustomBuildAfterTargets = BscMake
+                   CustomBuildBeforeTargets = PostBuildEvent
+                   CustomBuildToolAfterTargets = PreBuildEvent
+                   CustomBuildToolBeforeTargets = Midl
+                   DebugCppRuntimeFilesPath = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\redist\Debug_NonRedist\x86
+                   DebuggerFlavor = WindowsLocalDebugger
+                   DebuggerLaunchApplication = true
+                   DebuggerRequireAuthentication = true
+                   DebuggerType = NativeOnly
+                   DebugSymbolsProjectOutputGroupDependsOn = 
+                   DefaultLanguageSourceExtension = .cpp
+                   DefaultPlatformToolset = v140
+                   DefaultToolArchitecture = Native32Bit
+                   DefaultWindowsSDKVersion = 8.1
+                   DefineCommonReferenceSchemas = 
+                   DefineExplicitDefaults = true
+                   DelayImplib = Delayimp.lib
+                   DelaySign = 
+                   DeploymentType = Installed
+                   DesignTimeBuildInitTargets = _PrepareForReferenceResolution;;InitGetClCommandLines;ResolveReferences;FixupReferences
+                   DesignTimeIntermediateOutputPath = Release\InProcessTempFiles\
+                   DesignTimeResolveAssemblyReferencesDependsOn = 
+                         GetFrameworkPaths;
+                         GetReferenceAssemblyPaths;
+                         ResolveReferences
+                       
+                   DetermineProjectTypeTargets = _PrepareForReferenceResolution;
+                   DevEnvDir = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\
+                   DocumentationProjectOutputGroupDependsOn = ResolvedXDCMake;ComputeCLCompileGeneratedXDCFiles
+                   DocumentLibraryDependencies = true
+                   EmbeddedWin32Manifest = 
+                   EmbedManifest = true
+                   EnableManagedIncrementalBuild = false
+                   EntityDeployDependsOn = 
+                   EntityDeployIntermediateResourcePath = Release\edmxResourcesToEmbed\
+                   ExcludePath = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt;;;C:\Program Files (x86)\Windows Kits\8.1\Include\um;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\winrt;;C:\Program Files (x86)\MSBuild\14.0\bin\;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib;;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86;;;
+                   ExecutablePath = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\MSBuild\14.0\bin\;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\WINDOWS\SysWow64;;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries\x86;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Windows\SysWOW64\WindowsPowerShell\v1.0\Modules\TShell\TShell\;C:\Program Files\Git\cmd;c:\users\amuntea\appdata\local\programs\python\Python35\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\work\path\;C:\Program Files\Microsoft VS Code\bin;D:\Faculta\Path\nasm-2.13.03;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Users\amuntea\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\amuntea\AppData\Local\Programs\Python\Python35-32\;C:\Users\amuntea\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\amuntea\AppData\Local\Programs\Python\Python35\;C:\Users\amuntea\AppData\Local\Microsoft\WindowsApps;C:\Buildsystem;C:\Program Files\Microsoft VS Code\bin;c:\work\ASM\ASM\ASM\asm1\path;C:\Users\amuntea\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;D:\Faculta\Path;d:\Faculta\Path\bin;C:\Users\amuntea\AppData\Local\GitHubDesktop\bin;C:\work\php;;
+                   ExpandSDKAllowedReferenceExtensions = 
+                         .winmd;
+                         .dll
+                       
+                   ExpandSDKReferencesDependsOn = 
+                         ResolveSDKReferences
+                       
+                   ExtensionsToDeleteOnClean = *.cdf;*.cache;*.obj;*.obj.enc;*.ilk;*.ipdb;*.iobj;*.resources;*.tlb;*.tli;*.tlh;*.tmp;*.rsp;*.pgc;*.pgd;*.meta;*.tlog;*.manifest;*.res;*.pch;*.exp;*.idb;*.rep;*.xdc;*.pdb;*_manifest.rc;*.bsc;*.sbr;*.xml;*.metagen;*.bi;D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\server.exe.manifest;D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\server.tlb;D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\server.pdb;D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\server.exe;D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\server.bsc;D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\server.ilk;D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\server.exe.intermediate.manifest;D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\server.exe.CodeAnalysisLog.xml;D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\server.exe.lastcodeanalysissucceeded
+                   FindInvalidProjectReferencesDependsOn = 
+                         GetReferenceTargetPlatformMonikers
+                       
+                   FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+                   FPS_BROWSER_USER_PROFILE_STRING = Default
+                   Framework20Dir = @(_TargetFramework20DirectoryItem)
+                   Framework30Dir = @(_TargetFramework30DirectoryItem)
+                   Framework35Dir = @(_TargetFramework35DirectoryItem)
+                   Framework40Dir = @(_TargetFramework40DirectoryItem)
+                   FrameworkDir = C:\Windows\Microsoft.NET\Framework\
+                   FrameworkDir_110 = C:\Windows\Microsoft.NET\Framework\
+                   FrameworkPathOverride = C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+                   FrameworkRegistryBase = Software\Microsoft\.NETFramework
+                   FrameworkSdkDir = C:\Program Files (x86)\Windows Kits\8.1\
+                   FrameworkSDKRoot = C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\
+                   FrameworkVersion = v4.6
+                   FullReferenceAssemblyNames = Full
+                   FxCompileAfterTargets = CustomBuild
+                   FxCompileBeforeTargets = Midl
+                   GenerateBindingRedirectsOutputType = true
+                   GenerateBuildInfoConfigFile = false
+                   GenerateClickOnceManifests = 
+                   GeneratedFileExtension = .g.cpp
+                   GenerateManifest = false
+                   GenerateManifestsDependsOn = 
+                         SetWin32ManifestProperties;
+                         GenerateApplicationManifest;
+                         GenerateDeploymentManifest
+                       
+                   GenerateTargetFrameworkAttribute = false
+                   GetCopyToOutputDirectoryItemsDependsOn = 
+                         AssignTargetPaths;
+                         _SplitProjectReferencesByFileExistence
+                       
+                   GetFrameworkPathsDependsOn = 
+                   GetReferenceAssemblyPathsDependsOn = 
+                           ;
+                           GetWinFXPath
+                       
+                   GetTargetPathDependsOn = 
+                   GetTargetPathWithTargetPlatformMonikerDependsOn = ; GetTargetPath
+                   GPURefDebuggerBreakOnAllThreads = GPURefBreakOncePerWarp
+                   HighEntropyVA = false
+                   HOMEDRIVE = C:
+                   HOMEPATH = \Users\amuntea
+                   HostInBrowser = false
+                   IgnoreImportLibrary = false
+                   ImplicitlyExpandDesignTimeFacadesDependsOn = 
+                         ;
+                         GetReferenceAssemblyPaths
+                       
+                   ImportByWildcardAfterMicrosoftCommonProps = true
+                   ImportByWildcardAfterMicrosoftCommonTargets = true
+                   ImportByWildcardAfterMicrosoftNetFrameworkProps = true
+                   ImportByWildcardAfterMicrosoftNetFrameworkTargets = true
+                   ImportByWildcardBeforeMicrosoftCommonProps = true
+                   ImportByWildcardBeforeMicrosoftCommonTargets = true
+                   ImportByWildcardBeforeMicrosoftNetFrameworkProps = true
+                   ImportByWildcardBeforeMicrosoftNetFrameworkTargets = true
+                   ImportUserLocationsByWildcardAfterMicrosoftCommonProps = true
+                   ImportUserLocationsByWildcardAfterMicrosoftCommonTargets = true
+                   ImportUserLocationsByWildcardAfterMicrosoftNetFrameworkProps = true
+                   ImportUserLocationsByWildcardAfterMicrosoftNetFrameworkTargets = true
+                   ImportUserLocationsByWildcardBeforeMicrosoftCommonProps = true
+                   ImportUserLocationsByWildcardBeforeMicrosoftCommonTargets = true
+                   ImportUserLocationsByWildcardBeforeMicrosoftNetFrameworkProps = true
+                   ImportUserLocationsByWildcardBeforeMicrosoftNetFrameworkTargets = true
+                   ImportXamlTargets = true
+                   IncludeFrameworkReferencesFromNuGet = true
+                   IncludePath = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt;;;C:\Program Files (x86)\Windows Kits\8.1\Include\um;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\winrt;;
+                   IncludeServerNameInBuildInfo = false
+                   IncludeVersionInInteropName = true
+                   IntDir = Release\
+                   IntermediateOutputPath = Release\
+                   InteropOutputPath = Interop\
+                   IsApplication = true
+                   Keyword = Win32Proj
+                   LangID = 1033
+                   LangName = en-US
+                   Language = C++
+                   LastBuildState = Release\server.tlog\server.lastbuildstate
+                   LastBuildUnsuccessful = Release\server.tlog\unsuccessfulbuild
+                   LibraryPath = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib;;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86;;;C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86;;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Lib\um\x86
+                   LibraryWPath = C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral;
+                   LinkCompiled = true
+                   LinkIncremental = false
+                   LoadTimeSensitiveProperties = 
+                         ;
+                       
+                   LoadTimeSensitiveTargets = 
+                         ;
+                         XamlMarkupCompilePass1;
+                       
+                   LOCALAPPDATA = C:\Users\amuntea\AppData\Local
+                   LocalDebuggerAttach = False
+                   LocalDebuggerCommand = D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\server.exe
+                   LocalDebuggerDebuggerType = Auto
+                   LocalDebuggerMergeEnvironment = true
+                   LocalDebuggerSQLDebugging = False
+                   LocalDebuggerWorkingDirectory = d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\
+                   LocalGPUDebuggerTargetType = {F4453496-1DB8-47F8-A7D5-31EBDDC2EC96}
+                   LocalizationDirectivesToLocFile = None
+                   LOGONSERVER = \\CLJDC01
+                   ManagedAssembly = false
+                   ManagedExpressionEvaluatorRegKey = 
+                   ManagedIncrementalBuildProcessDependencyGraphAfterTarget = 
+                         ClCompile
+                       
+                   ManagedIncrementalBuildProcessDependencyGraphBeforeTarget = 
+                         ClCompile
+                       
+                   MarkupCompilePass2ForMainAssemblyDependsOn = 
+                                        GenerateTemporaryTargetAssembly;
+                                        MarkupCompilePass2;
+                                        AfterMarkupCompilePass2;
+                                        CleanupTemporaryTargetAssembly
+                          
+                   MaxTargetPath = 100
+                   MergedOutputCodeAnalysisFile = Release\vc.nativecodeanalysis.all.xml
+                   MetagenInputTarget = Link
+                   MetaGenTargets = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\\Microsoft.MetaGen.targets
+                   MicrosoftCommonPropsHasBeenImported = true
+                   MidlYieldDuringToolExecution = true
+                   MpiDebuggerCleanupDeployment = True
+                   MpiDebuggerDebuggerType = Auto
+                   MpiDebuggerDeployCommonRuntime = True
+                   MpiDebuggerNetworkSecurityMode = AnyAddress
+                   MpiDebuggerSchedulerNode = localhost/1
+                   MpiDebuggerSchedulerTimeout = 5000
+                   MsAppxPackageTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\AppxPackage\Microsoft.AppXPackage.Targets
+                   MSBuild_ExecutablePath = C:\Program Files (x86)\MSBuild\14.0\bin\;C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+                   MSBuildAllProjects = ;d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj;C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.targets;C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.NetFramework.CurrentVersion.props;d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj;C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.NetFramework.CurrentVersion.targets;C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Xaml.targets
+                   MSBuildAssemblyVersion = 14.0
+                   MSBuildBinPath = C:\Program Files (x86)\MSBuild\14.0\bin
+                   MSBuildExtensionsPath = C:\Program Files (x86)\MSBuild
+                   MSBuildExtensionsPath32 = C:\Program Files (x86)\MSBuild
+                   MSBuildExtensionsPath64 = C:\Program Files\MSBuild
+                   MSBuildFrameworkToolsPath = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+                   MSBuildFrameworkToolsPath32 = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+                   MSBuildFrameworkToolsRoot = C:\Windows\Microsoft.NET\Framework\
+                   MSBuildLastTaskResult = true
+                   MSBuildLoadMicrosoftTargetsReadOnly = true
+                   MSBuildNodeCount = 4
+                   MSBuildProgramFiles32 = C:\Program Files (x86)
+                   MSBuildProjectDefaultTargets = Build
+                   MSBuildProjectDirectory = d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server
+                   MSBuildProjectDirectoryNoRoot = Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server
+                   MSBuildProjectExtension = .vcxproj
+                   MSBuildProjectFile = server.vcxproj
+                   MSBuildProjectFullPath = d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj
+                   MSBuildProjectName = server
+                   MSBuildRuntimeVersion = 4.0.30319
+                   MSBuildStartupDirectory = d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer
+                   MSBuildToolsPath = C:\Program Files (x86)\MSBuild\14.0\bin
+                   MSBuildToolsPath32 = C:\Program Files (x86)\MSBuild\14.0\bin\
+                   MSBuildToolsRoot = C:\Program Files (x86)\MSBuild\
+                   MSBuildToolsVersion = 14.0
+                   MSBuildUserExtensionsPath = C:\Users\amuntea\AppData\Local\Microsoft\MSBuild
+                   MsTestToolsTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\TeamTest\Microsoft.TeamTest.targets
+                   MultiToolTask = false
+                   NativeCodeAnalysisTLogFile = Release\NativeCodeAnalysis.read.1.tlog
+                   NetFrameworkPropsPath = C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.NetFramework.CurrentVersion.props
+                   NetFrameworkTargetsPath = C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.NetFramework.CurrentVersion.targets
+                   NETFXKitsDir = C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\
+                   NETFXSDKDir = C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\
+                   NuGetProps = C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.props
+                   NuGetRuntimeIdentifier = win-x86
+                   NuGetTargetFrameworkMonikerToInject = .NETCore,Version=v5.0
+                   NuGetTargetMoniker = .NETFramework,Version=v4.0
+                   NuGetTargetMonikerToInject = .NETCore,Version=v5.0
+                   NuGetTargets = C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets
+                   NUMBER_OF_PROCESSORS = 4
+                   OneDrive = C:\Users\amuntea\OneDrive
+                   OnlyReferenceAndBuildProjectsEnabledInSolutionConfiguration = true
+                   OS = Windows_NT
+                   OSVersion = 5.1.2600.0
+                   OutDir = D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\
+                   OutDirWasSpecified = false
+                   OutputPath = D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\
+                   OutputType = exe
+                   OverwriteReadOnlyFiles = false
+                   Path = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries\x86;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Windows\SysWOW64\WindowsPowerShell\v1.0\Modules\TShell\TShell\;C:\Program Files\Git\cmd;c:\users\amuntea\appdata\local\programs\python\Python35\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\work\path\;C:\Program Files\Microsoft VS Code\bin;D:\Faculta\Path\nasm-2.13.03;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Users\amuntea\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\amuntea\AppData\Local\Programs\Python\Python35-32\;C:\Users\amuntea\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\amuntea\AppData\Local\Programs\Python\Python35\;C:\Users\amuntea\AppData\Local\Microsoft\WindowsApps;C:\Buildsystem;C:\Program Files\Microsoft VS Code\bin;c:\work\ASM\ASM\ASM\asm1\path;C:\Users\amuntea\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;D:\Faculta\Path;d:\Faculta\Path\bin;C:\Users\amuntea\AppData\Local\GitHubDesktop\bin;C:\work\php;
+                   PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+                   PHPRC = c:\work\php
+                   PkgDefApplicationConfigFile = C:\Users\amuntea\AppData\Local\Microsoft\VisualStudio\14.0\devenv.exe.config
+                   Platform = Win32
+                   Platform_Actual = Win32
+                   PlatformArchitecture = 32
+                   PlatformName = Win32
+                   PlatformPropsFound = true
+                   PlatformShortName = x86
+                   PlatformTarget = x86
+                   PlatformTargetAsMSBuildArchitecture = x86
+                   PlatformTargetAsMSBuildArchitectureExplicitlySet = false
+                   PlatformTargetsFound = true
+                   PlatformToolset = v140
+                   PlatformToolsetVersion = 140
+                   PostBuildEventDependsOn = 
+                   PostBuildEventUseInBuild = true
+                   PreBuildEventDependsOn = 
+                   PreBuildEventUseInBuild = true
+                   Prefer32Bit = false
+                   PreferredToolArchitecture = x86
+                   PreLinkEventUseInBuild = true
+                   PrepareForBuildDependsOn = PlatformPrepareForBuild;Desktop_PlatformPrepareForBuild;GetFrameworkPaths;GetReferenceAssemblyPaths;AssignLinkMetadata;SetCABuildNativeEnvironmentVariables
+                   PrepareForRunDependsOn = 
+                         CopyFilesToOutputDirectory
+                       
+                   PrepareResourceNamesDependsOn = 
+                                       AssignWinFXEmbeddedResource;
+                                       
+                         AssignTargetPaths;
+                         SplitResourcesByCulture;
+                         CreateManifestResourceNames;
+                         CreateCustomManifestResourceNames
+                       
+                         
+                   PrepareResourcesDependsOn = ResolveNuGetPackageAssets;
+                         XamlMarkupCompilePass1;
+                         XamlMarkupCompilePass2;
+                         
+                                   MarkupCompilePass1;
+                                   AfterMarkupCompilePass1;
+                                   MarkupCompilePass2ForMainAssembly;
+                                   FileClassification;
+                                   MainResourcesGeneration;
+                                   
+                         PrepareResourceNames;
+                         ResGen;
+                         CompileLicxFiles
+                       
+                          
+                       
+                   PROCESSOR_ARCHITECTURE = x86
+                   PROCESSOR_ARCHITEW6432 = AMD64
+                   PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+                   PROCESSOR_LEVEL = 6
+                   PROCESSOR_REVISION = 8e09
+                   ProcessorArchitecture = x86
+                   ProgramData = C:\ProgramData
+                   ProgramFiles = C:\Program Files (x86)
+                   ProgramW6432 = C:\Program Files
+                   ProjectDesignTimeAssemblyResolutionSearchPaths = 
+                         {CandidateAssemblyFiles};
+                         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib;;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib;;
+                         {HintPathFromItem};
+                         {TargetFrameworkDirectory};
+                         {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx};
+                         {RawFileName};
+                         D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\
+                       
+                   ProjectDir = d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\
+                   ProjectEvaluationFingerprint = Release|Win32|D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\|
+                   ProjectExt = .vcxproj
+                   ProjectFileName = server.vcxproj
+                   ProjectFlavor = Client
+                   ProjectGuid = {68512B78-D647-4C02-961C-7BBEE49C70FA}
+                   ProjectLockFile = project.lock.json
+                   ProjectName = server
+                   ProjectPath = d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj
+                   PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\Intel\
+                   PUBLIC = C:\Users\Public
+                   PublishableProject = true
+                   PublishBuildDependsOn = 
+                               BuildOnlySettings;
+                               PrepareForBuild;
+                               ResolveReferences;
+                               PrepareResources;
+                               ResolveKeySource;
+                               PrepareResourcesForSatelliteAssemblies;
+                               GenerateSerializationAssemblies;
+                               CreateSatelliteAssemblies;
+                           
+                   PublishDependsOn = 
+                         SetGenerateManifests;
+                         Build;
+                         PublishOnly
+                       
+                   PublishDir = D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\app.publish\
+                   PublishOnlyDependsOn = 
+                         SetGenerateManifests;
+                         PublishBuild;
+                         BeforePublish;
+                         GenerateManifests;
+                         CopyFilesToOutputDirectory;
+                         _CopyFilesToPublishFolder;
+                         _DeploymentGenerateBootstrapper;
+                         ResolveKeySource;
+                         _DeploymentSignClickOnceDeployment;
+                         AfterPublish
+                       
+                   PublishPipelineCollectFilesCore = 
+                               ;
+                               CollectFilesFromBuildInfoConfigFile;
+                           
+                   RebuildDependsOn = 
+                         _PrepareForRebuild;
+                         
+                         BeforeRebuild;
+                         Clean;
+                         Build;
+                         AfterRebuild;
+                       ;
+                       
+                   ReferencePath = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib;;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib;
+                   RemoteDebuggerAttach = False
+                   RemoteDebuggerConnection = RemoteWithAuthentication
+                   RemoteDebuggerDebuggerType = Auto
+                   RemoteDebuggerServerName = AMUNTEA-LPT
+                   RemoteDebuggerSQLDebugging = False
+                   RemoteDebuggerWorkingDirectory = d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\
+                   RemoteGPUDebuggerTargetType = {F4453496-1DB8-47F8-A7D5-31EBDDC2EC96}
+                   ReportingServicesTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\ReportingServices\Microsoft.ReportingServices.targets
+                   RequiredBundles = VC_140ToolsAndLibs;
+                   ResGenDependsOn = ResolveAssemblyReferences;SplitResourcesByCulture;BeforeResGen;CoreResGen;AfterResGen
+                   ResGenExecuteAsTool = false
+                   ResolveAssemblyReferencesDependsOn = _PrepareForReferenceResolution;
+                         GetFrameworkPaths;
+                         GetReferenceAssemblyPaths;
+                         PrepareForBuild;
+                         ResolveSDKReferences;
+                         ExpandSDKReferences;
+                       ;ResolveNuGetPackageAssets
+                   ResolveNuGetPackageAssetsDependsOn = ResolveProjectReferences
+                   ResolveNuGetPackages = true
+                   ResolveReferencesDependsOn = _PrepareForReferenceResolution;ComputeCrtSDKReference;
+                         
+                         
+                         BeforeResolveReferences;
+                         AssignProjectConfiguration;
+                         ResolveProjectReferences;
+                         FindInvalidProjectReferences;
+                         ResolveNativeReferences;
+                         ResolveAssemblyReferences;
+                         GenerateBindingRedirects;
+                         ResolveComReferences;
+                         AfterResolveReferences
+                       ;
+                         ImplicitlyExpandDesignTimeFacades
+                       ;
+                         ResolveTestReferences
+                       
+                   ResolveSDKReferencesDependsOn = _PrepareForReferenceResolution;ComputeCrtSDKReference;
+                         GetInstalledSDKLocations
+                       
+                   RootNamespace = server
+                   RunAfterInstall = true
+                   RunCodeAnalysisDependsOn = ;ClCompile;RunMergeNativeCodeAnalysis
+                   RunCodeAnalysisInputs = D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\server.exe
+                   RunDependsOn = 
+                   RunMergeNativeCodeAnalysisDependsOn = ClCompile
+                   RunNativeCodeAnalysisInputs = 
+                   SatelliteDllsProjectOutputGroupDependsOn = PrepareForBuild;PrepareResourceNames
+                   SDK35ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\
+                   SDK40ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6 Tools\
+                   SDKDisplayName = Windows
+                   SDKExtensionDirectoryRoot = C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10;C:\Program Files (x86)\Windows Kits\10
+                   SDKIdentifier = Windows
+                   SDKRedistOutputGroupDependsOn = ResolveSDKReferences;ExpandSDKReferences
+                   SDKReferenceDirectoryRoot = C:\Users\amuntea\AppData\Local\Microsoft SDKs;C:\Program Files (x86)\Microsoft SDKs
+                   SDKReferenceRegistryRoot = Software\Microsoft\Microsoft SDKs
+                   SDKVersion = 10.0
+                   SESSIONNAME = Console
+                   SGenFilesOutputGroupDependsOn = 
+                   SGenShouldGenerateSerializer = true
+                   SGenUseKeep = false
+                   SGenUseProxyTypes = true
+                   ShouldMarkCertainSDKReferencesAsRuntimeOnly = true
+                   ShouldUnsetParentConfigurationAndPlatform = true
+                   SkipCopyBuildProduct = true
+                   SkipCopyUnchangedFiles = true
+                   SolutionDir = D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\
+                   SolutionExt = .sln
+                   SolutionFileName = ClientServer.sln
+                   SolutionName = ClientServer
+                   SolutionPath = D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\ClientServer.sln
+                   SourceFilesProjectOutputGroupDependsOn = PrepareForBuild;AssignTargetPaths
+                   SourcePath = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\src\mfc;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\src\mfcm;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\src\atl;;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\crt\src;;C:\Program Files (x86)\Windows Kits\10\Source\10.0.10240.0\ucrt;;;
+                   SQLDebugging = false
+                   SystemDrive = C:
+                   SystemRoot = C:\WINDOWS
+                   TargetCulture = *
+                   TargetDeployManifestFileName = server.application
+                   TargetDir = D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\
+                   TargetedFrameworkDir = @(_TargetedFrameworkDirectoryItem)
+                   TargetedRuntimeVersion = v4.0.30319
+                   TargetedSDKArchitecture = x86
+                   TargetedSDKConfiguration = Retail
+                   TargetExt = .exe
+                   TargetFileName = server.exe
+                   TargetFrameworkAsMSBuildRuntime = CLR4
+                   TargetFrameworkIdentifier = .NETFramework
+                   TargetFrameworkMoniker = .NETFramework,Version=v4.0
+                   TargetFrameworkMonikerAssemblyAttributesPath = C:\Users\amuntea\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp
+                   TargetFrameworkMonikerDisplayName = .NET Framework 4
+                   TargetFrameworkSDKToolsDirectory = C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6 Tools\
+                   TargetFrameworkVersion = v4.0
+                   TargetName = server
+                   TargetPath = D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\server.exe
+                   TargetPlatformDisplayName = Windows 8.1
+                   TargetPlatformIdentifier = Windows
+                   TargetPlatformMinVersion = 
+                   TargetPlatformMoniker = Windows,Version=8.1
+                   TargetPlatformRegistryBase = Software\Microsoft\Microsoft SDKs\Windows
+                   TargetPlatformSdkMetadataLocation = C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral
+                   TargetPlatformSdkPath = C:\Program Files (x86)\Windows Kits\8.1\
+                   TargetPlatformVersion = 8.1
+                   TargetPlatformWinMDLocation = C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral
+                   TargetRuntime = Managed
+                   TargetUniversalCRTVersion = 10.0.10240.0
+                   TaskKeyToken = 31bf3856ad364e35
+                   TaskVersion = 4.0.0.0
+                   TEMP = C:\Users\amuntea\AppData\Local\Temp
+                   TLogLocation = Release\server.tlog\
+                   TMP = C:\Users\amuntea\AppData\Local\Temp
+                   ToolsetPropsFound = true
+                   ToolsetTargetsFound = true
+                   TRACE_FORMAT_SEARCH_PATH = d:\TMF\tmf
+                   TrackFileAccess = true
+                   UCRTContentRoot = C:\Program Files (x86)\Windows Kits\10\
+                   UnitTestPlatformVersion = 14.0
+                   UniversalCRT_IncludePath = C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt;
+                   UniversalCRT_LibraryPath_arm = C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\arm;
+                   UniversalCRT_LibraryPath_arm64 = C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\arm64;
+                   UniversalCRT_LibraryPath_x64 = C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x64;
+                   UniversalCRT_LibraryPath_x86 = C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86;
+                   UniversalCRT_PropsPath = C:\Program Files (x86)\Windows Kits\10\\DesignTime\CommonConfiguration\Neutral\ucrt.props
+                   UniversalCRT_SourcePath = C:\Program Files (x86)\Windows Kits\10\Source\10.0.10240.0\ucrt;
+                   UniversalCRTSdkDir = C:\Program Files (x86)\Windows Kits\10\
+                   UnmanagedRegistrationDependsOn = 
+                   UnmanagedUnregistrationDependsOn = 
+                   UpgradeSubsetToProfile = true
+                   UseCommonOutputDirectory = false
+                   UseLegacyManagedDebugger = true
+                   UseOfATL = false
+                   UseOfMFC = false
+                   USERDNSDOMAIN = CLJ.BITDEFENDER.BIZ
+                   USERDOMAIN = CLJ
+                   USERDOMAIN_ROAMINGPROFILE = CLJ
+                   USERNAME = amuntea
+                   USERPROFILE = C:\Users\amuntea
+                   UserRootDir = C:\Users\amuntea\AppData\Local\Microsoft\MSBuild\v4.0
+                   UseSourcePath = true
+                   VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+                   VC_ATLMFC_IncludePath = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;
+                   VC_ATLMFC_SourcePath = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\src\mfc;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\src\mfcm;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\src\atl;
+                   VC_CRT_SourcePath = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\crt\src;
+                   VC_ExecutablePath_ARM = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_arm;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin
+                   VC_ExecutablePath_x64 = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin
+                   VC_ExecutablePath_x64_ARM = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64_arm
+                   VC_ExecutablePath_x64_x64 = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64
+                   VC_ExecutablePath_x64_x86 = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64_x86
+                   VC_ExecutablePath_x86 = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin
+                   VC_ExecutablePath_x86_ARM = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_arm
+                   VC_ExecutablePath_x86_x64 = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64
+                   VC_ExecutablePath_x86_x86 = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin
+                   VC_IncludePath = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt;;
+                   VC_LibraryPath_ARM = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\ARM;;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib\ARM;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\arm;;
+                   VC_LibraryPath_ATL_ARM = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib\ARM;
+                   VC_LibraryPath_ATL_x64 = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib\amd64;
+                   VC_LibraryPath_ATL_x86 = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib;
+                   VC_LibraryPath_VC_ARM = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\ARM;
+                   VC_LibraryPath_VC_x64 = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\amd64;
+                   VC_LibraryPath_VC_x86 = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib;
+                   VC_LibraryPath_x64 = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\amd64;;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib\amd64;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x64;;
+                   VC_LibraryPath_x86 = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib;;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86;;
+                   VC_ReferencesPath_ARM = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib\ARM;;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\ARM
+                   VC_ReferencesPath_ATL_ARM = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib\ARM;
+                   VC_ReferencesPath_ATL_x64 = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib\amd64;
+                   VC_ReferencesPath_ATL_x86 = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib;
+                   VC_ReferencesPath_VC_ARM = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\ARM
+                   VC_ReferencesPath_VC_x64 = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\amd64
+                   VC_ReferencesPath_VC_x86 = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib
+                   VC_ReferencesPath_x64 = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib\amd64;;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\amd64
+                   VC_ReferencesPath_x86 = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib;;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib
+                   VC_SourcePath = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\src\mfc;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\src\mfcm;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\src\atl;;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\crt\src;;C:\Program Files (x86)\Windows Kits\10\Source\10.0.10240.0\ucrt;;
+                   VC_VC_IncludePath = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;
+                   VCInstallDir = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\
+                   VCInstallDir_140 = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\
+                   VCProjectUpgraderObjectName = WindowsSDKVersionUpgrader
+                   VCTargetsPath = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\
+                   VCTargetsPath10 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\
+                   VCTargetsPath11 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\
+                   VCTargetsPath12 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\
+                   VCTargetsPath14 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\
+                   VCTargetsPathActual = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\
+                   VCTargetsPathEffective = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\
+                   VCToolArchitecture = Native32Bit
+                   Version = 1.0.0.0
+                   VisualStudioDir = C:\Users\amuntea\Documents\Visual Studio 2015
+                   VisualStudioEdition = Microsoft Visual Studio Professional 2015
+                   VisualStudioVersion = 14.0
+                   VS_ExecutablePath = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;
+                   VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+                   VSIDEResolvedNonMSBuildProjectOutputs = <VSIDEResolvedNonMSBuildProjectOutputs />
+                   VSInstallDir = C:\Program Files (x86)\Microsoft Visual Studio 14.0\
+                   VSInstallDir_140 = C:\Program Files (x86)\Microsoft Visual Studio 14.0\
+                   VSLANG = 1033
+                   VSSDK140Install = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\
+                   VSVersion = $(VisualStudoVersion)
+                   WebBrowserDebuggerDebuggerType = Auto
+                   WebReference_EnableLegacyEventingModel = false
+                   WebReference_EnableProperties = true
+                   WebReference_EnableSQLTypes = true
+                   WebServiceDebuggerDebuggerType = Auto
+                   WebServiceDebuggerSQLDebugging = False
+                   WholeProgramOptimization = true
+                   WholeProgramOptimizationAvailabilityInstrument = true
+                   WholeProgramOptimizationAvailabilityOptimize = true
+                   WholeProgramOptimizationAvailabilityTrue = true
+                   WholeProgramOptimizationAvailabilityUpdate = true
+                   windir = C:\WINDOWS
+                   Windows81SdkInstalled = true
+                   WindowsAppContainer = false
+                   WindowsSDK_ExecutablePath = C:\Program Files (x86)\Windows Kits\8.1\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools
+                   WindowsSDK_ExecutablePath_arm = C:\Program Files (x86)\Windows Kits\8.1\bin\arm;
+                   WindowsSDK_ExecutablePath_x64 = C:\Program Files (x86)\Windows Kits\8.1\bin\x64;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\x64
+                   WindowsSDK_ExecutablePath_x86 = C:\Program Files (x86)\Windows Kits\8.1\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools
+                   WindowsSDK_IncludePath = C:\Program Files (x86)\Windows Kits\8.1\Include\um;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\winrt;
+                   WindowsSDK_LibraryPath_arm = C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\arm;
+                   WindowsSDK_LibraryPath_x64 = C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64;
+                   WindowsSDK_LibraryPath_x86 = C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86;
+                   WindowsSDK_MetadataPath = C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral
+                   WindowsSDK80Path = C:\Program Files (x86)\Windows Kits\8.1\
+                   WindowsSdkDir = C:\Program Files (x86)\Windows Kits\8.1\
+                   WindowsSdkDir_10 = C:\Program Files (x86)\Windows Kits\10\
+                   WindowsSdkDir_81 = C:\Program Files (x86)\Windows Kits\8.1\
+                   WindowsSdkDir_81A = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\
+                   WindowsSDKToolArchitecture = Native32Bit
+                   WindowsTargetPlatformVersion = 8.1
+                   WinMDAssembly = false
+                   WMSJSProject = WJProject
+                   WMSJSProjectDirectory = JavaScript
+                   XamlBuildTaskAssemblyName = XamlBuildTask, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+                   XamlBuildTaskLocation = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+                   XamlBuildTaskPath = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+                   XamlGenCodeFileNames = server.vcxproj.XamlGeneratedCodeFileListAbsolute.txt
+                   XamlGenMarkupFileNames = server.vcxproj.XamlGeneratedXamlFileListAbsolute.txt
+                   XamlPass2FlagFile = server.vcxproj.XamlPass2Flag.txt
+                   XamlRequiresCompilationPass2 = false
+                   XamlTemporaryAssemblyName = server
+                   YieldDuringToolExecution = true
+
+14:02:56.581     1>Building with tools version "14.0".
+14:02:56.581     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:17)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj" (entry point):
+                   Set Property: _InvalidConfigurationMessageText=The OutputPath property is not set for project 'server.vcxproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Release'  Platform='Win32'.
+                   Set Property: _InvalidConfigurationMessageText=The OutputPath property is not set for project 'server.vcxproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Release'  Platform='Win32'.  This error may also appear if some other project is trying to follow a project-to-project reference to this project, this project has been unloaded or is not included in the solution, and the referencing project does not build using the same or an equivalent Configuration or Platform.
+                   Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Message" (TaskId:17)
+                     Task Parameter:Text=Configuration=Release (TaskId:17)
+                     Task Parameter:Importance=Low (TaskId:17)
+                     Configuration=Release (TaskId:17)
+                   Done executing task "Message". (TaskId:17)
+                   Task "Message" (TaskId:18)
+                     Task Parameter:Text=Platform=Win32 (TaskId:18)
+                     Task Parameter:Importance=Low (TaskId:18)
+                     Platform=Win32 (TaskId:18)
+                   Done executing task "Message". (TaskId:18)
+                   Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\' != '' and !HasTrailingSlash('D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\')).
+                   Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+                   Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('Release\' != '' and !HasTrailingSlash('Release\')).
+14:02:56.581     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "server.vcxproj".: (TargetId:17)
+14:02:56.581     1>Target "_PrepareForClean: (TargetId:18)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.BuildSteps.Targets" from project "d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj" (target "Clean" depends on it):
+                   Set Property: BuildType=Clean
+                   Set Property: _BuildActionType=Clean
+                   Task "Delete" (TaskId:19)
+                     Task Parameter:Files=Release\server.tlog\server.lastbuildstate (TaskId:19)
+                     Deleting file "Release\server.tlog\server.lastbuildstate". (TaskId:19)
+                   Done executing task "Delete". (TaskId:19)
+14:02:56.581     1>Done building target "_PrepareForClean" in project "server.vcxproj".: (TargetId:18)
+14:02:56.581     1>Target "BeforeClean: (TargetId:19)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj" (target "Clean" depends on it):
+14:02:56.581     1>Done building target "BeforeClean" in project "server.vcxproj".: (TargetId:19)
+                   Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                                       ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                                      Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'exe' != 'library') or
+                                       ('' == '')) and
+                                      Exists('obj\server.vcxproj.UnmanagedRegistration.cache')).
+14:02:56.581     1>Target "CoreClean: (TargetId:20)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj" (target "Clean" depends on it):
+                   Task "Delete" (TaskId:20)
+                     Task Parameter:
+                         Files=
+                             Release\\TempCA\server.pdb
+                             Release\\TempCA\server.exe (TaskId:20)
+                     Task Parameter:TreatErrorsAsWarnings=True (TaskId:20)
+                     File "Release\\TempCA\server.pdb" doesn't exist. Skipping. (TaskId:20)
+                     File "Release\\TempCA\server.exe" doesn't exist. Skipping. (TaskId:20)
+                   Done executing task "Delete". (TaskId:20)
+                   Task "ReadLinesFromFile" (TaskId:21)
+                     Task Parameter:File=Release\server.vcxproj.FileListAbsolute.txt (TaskId:21)
+                   Done executing task "ReadLinesFromFile". (TaskId:21)
+                   Task "FindUnderPath" (TaskId:22)
+                     Task Parameter:Path=D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\ (TaskId:22)
+                     Comparison path is "D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\". (TaskId:22)
+                   Done executing task "FindUnderPath". (TaskId:22)
+                   Task "FindUnderPath" (TaskId:23)
+                     Task Parameter:Path=Release\ (TaskId:23)
+                     Comparison path is "Release\". (TaskId:23)
+                   Done executing task "FindUnderPath". (TaskId:23)
+                   Task "Delete" (TaskId:24)
+                     Task Parameter:TreatErrorsAsWarnings=True (TaskId:24)
+                   Done executing task "Delete". (TaskId:24)
+                   Task "RemoveDuplicates" (TaskId:25)
+                   Done executing task "RemoveDuplicates". (TaskId:25)
+                   Task "MakeDir" (TaskId:26)
+                     Task Parameter:Directories=Release\ (TaskId:26)
+                   Done executing task "MakeDir". (TaskId:26)
+                   Task "WriteLinesToFile" (TaskId:27)
+                     Task Parameter:File=Release\server.vcxproj.FileListAbsolute.txt (TaskId:27)
+                     Task Parameter:Overwrite=True (TaskId:27)
+                   Done executing task "WriteLinesToFile". (TaskId:27)
+14:02:56.583     1>Done building target "CoreClean" in project "server.vcxproj".: (TargetId:20)
+14:02:56.583     1>Target "AssignProjectConfiguration: (TargetId:21)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj" (target "CleanReferencedProjects" depends on it):
+                   Set Property: ShouldUnsetParentConfigurationAndPlatform=true
+                   Task "AssignProjectConfiguration" (TaskId:28)
+                     Task Parameter:CurrentProject=d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj (TaskId:28)
+                     Task Parameter:CurrentProjectConfiguration=Release (TaskId:28)
+                     Task Parameter:CurrentProjectPlatform=Win32 (TaskId:28)
+                     Task Parameter:OutputType=exe (TaskId:28)
+                     Task Parameter:ResolveConfigurationPlatformUsingMappings=False (TaskId:28)
+                     Task Parameter:SolutionConfigurationContents=<SolutionConfiguration>
+                     <ProjectConfiguration Project="{68512b78-d647-4c02-961c-7bbee49c70fa}" AbsolutePath="d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj">Release|Win32</ProjectConfiguration>
+                     <ProjectConfiguration Project="{1c0e467e-3f63-4c9b-9e5d-e0c437c62aaa}" AbsolutePath="d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\client\client.vcxproj">Release|Win32</ProjectConfiguration>
+                     </SolutionConfiguration> (TaskId:28)
+                     Task Parameter:OnlyReferenceAndBuildProjectsEnabledInSolutionConfiguration=True (TaskId:28)
+                     Task Parameter:ShouldUnsetParentConfigurationAndPlatform=True (TaskId:28)
+                   Done executing task "AssignProjectConfiguration". (TaskId:28)
+14:02:56.584     1>Done building target "AssignProjectConfiguration" in project "server.vcxproj".: (TargetId:21)
+14:02:56.584     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:22)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj" (target "CleanReferencedProjects" depends on it):
+                   Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+14:02:56.585     1>Done building target "_SplitProjectReferencesByFileExistence" in project "server.vcxproj".: (TargetId:22)
+14:02:56.585     1>Target "CleanReferencedProjects: (TargetId:23)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj" (target "Clean" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' != 'true' and 'true' == 'true' and '' != '').
+14:02:56.585     1>Done building target "CleanReferencedProjects" in project "server.vcxproj".: (TargetId:23)
+14:02:56.585     1>Target "CleanPublishFolder: (TargetId:24)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj" (target "Clean" depends on it):
+                   Task "RemoveDir" skipped, due to false condition; ('$(PublishDir)'=='$(OutputPath)app.publish\' and Exists('$(PublishDir)')) was evaluated as ('D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\app.publish\'=='D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\app.publish\' and Exists('D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\app.publish\')).
+14:02:56.585     1>Done building target "CleanPublishFolder" in project "server.vcxproj".: (TargetId:24)
+14:02:56.585     1>Target "AfterClean: (TargetId:25)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj" (target "Clean" depends on it):
+14:02:56.585     1>Done building target "AfterClean" in project "server.vcxproj".: (TargetId:25)
+                   Target "EntityClean" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+14:02:56.585     1>Target "BeforeCppClean: (TargetId:26)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets" from project "d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj" (target "CppClean" depends on it):
+14:02:56.585     1>Done building target "BeforeCppClean" in project "server.vcxproj".: (TargetId:26)
+14:02:56.585     1>Target "CoreCppClean: (TargetId:27)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets" from project "d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj" (target "CppClean" depends on it):
+                   Task "MakeDir" (TaskId:29)
+                     Task Parameter:Directories=Release\ (TaskId:29)
+                   Done executing task "MakeDir". (TaskId:29)
+                   Using "CppClean" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.Build.CppTasks.Common.dll".
+                   Task "CppClean" (TaskId:30)
+                     Task Parameter:FoldersToClean=Release\;Release\server.tlog\ (TaskId:30)
+                     Task Parameter:FilesExcludedFromClean=server.Build.CppClean.log (TaskId:30)
+                     Task Parameter:DoDelete=True (TaskId:30)
+                     Task Parameter:FilePatternsToDeleteOnClean=*.cdf;*.cache;*.obj;*.obj.enc;*.ilk;*.ipdb;*.iobj;*.resources;*.tlb;*.tli;*.tlh;*.tmp;*.rsp;*.pgc;*.pgd;*.meta;*.tlog;*.manifest;*.res;*.pch;*.exp;*.idb;*.rep;*.xdc;*.pdb;*_manifest.rc;*.bsc;*.sbr;*.xml;*.metagen;*.bi;D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\server.exe.manifest;D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\server.tlb;D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\server.pdb;D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\server.exe;D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\server.bsc;D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\server.ilk;D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\server.exe.intermediate.manifest;D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\server.exe.CodeAnalysisLog.xml;D:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\Release\server.exe.lastcodeanalysissucceeded (TaskId:30)
+                     Output Item(s): 
+                         DeletedFilesByCppCleanTask=
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\server\release\vc140.pdb
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\server\release\server.obj
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\server\release\data.obj
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\server\release\commands.obj
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\server\release\utils.obj
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\release\server.exe
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\release\server.ipdb
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\release\server.iobj
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\release\server.pdb
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\server\release\server.tlog\cl.command.1.tlog
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\server\release\server.tlog\cl.read.1.tlog
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\server\release\server.tlog\cl.write.1.tlog
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\server\release\server.tlog\link.command.1.tlog
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\server\release\server.tlog\link.read.1.tlog
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\server\release\server.tlog\link.write.1.tlog (TaskId:30)
+                   Done executing task "CppClean". (TaskId:30)
+                   Task "WriteLinesToFile" (TaskId:31)
+                     Task Parameter:File=Release\server.Build.CppClean.log (TaskId:31)
+                     Task Parameter:
+                         Lines=
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\server\release\vc140.pdb
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\server\release\server.obj
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\server\release\data.obj
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\server\release\commands.obj
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\server\release\utils.obj
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\release\server.exe
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\release\server.ipdb
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\release\server.iobj
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\release\server.pdb
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\server\release\server.tlog\cl.command.1.tlog
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\server\release\server.tlog\cl.read.1.tlog
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\server\release\server.tlog\cl.write.1.tlog
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\server\release\server.tlog\link.command.1.tlog
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\server\release\server.tlog\link.read.1.tlog
+                             d:\faculta\master\psncs\laborator\tema\tema\clientserver\server\release\server.tlog\link.write.1.tlog (TaskId:31)
+                     Task Parameter:Overwrite=True (TaskId:31)
+                   Done executing task "WriteLinesToFile". (TaskId:31)
+14:02:56.648     1>Done building target "CoreCppClean" in project "server.vcxproj".: (TargetId:27)
+14:02:56.648     1>Target "AfterCppClean: (TargetId:28)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets" from project "d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj" (target "CppClean" depends on it):
+14:02:56.648     1>Done building target "AfterCppClean" in project "server.vcxproj".: (TargetId:28)
+14:02:56.648     1>Target "PGInstrumentedClean: (TargetId:29)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets" from project "d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj" (target "CppClean" depends on it):
+                   Task "Delete" (TaskId:32)
+                   Done executing task "Delete". (TaskId:32)
+14:02:56.648     1>Done building target "PGInstrumentedClean" in project "server.vcxproj".: (TargetId:29)
+14:02:56.648     1>Target "CppClean: (TargetId:30)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets" from project "d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj" (target "Clean" depends on it):
+14:02:56.648     1>Done building target "CppClean" in project "server.vcxproj".: (TargetId:30)
+14:02:56.648     1>Target "Clean: (TargetId:31)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj" (entry point):
+14:02:56.648     1>Done building target "Clean" in project "server.vcxproj".: (TargetId:31)
+14:02:56.648     1>Done Building Project "d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj" (Clean target(s)).
+
+Project Performance Summary:
+       68 ms  d:\Faculta\Master\PSNCS\laborator\tema\tema\ClientServer\server\server.vcxproj   1 calls
+                 68 ms  Clean                                      1 calls
+
+Target Performance Summary:
+        0 ms  AfterClean                                 1 calls
+        0 ms  _PrepareForClean                           1 calls
+        0 ms  PGInstrumentedClean                        1 calls
+        0 ms  BeforeClean                                1 calls
+        0 ms  AfterCppClean                              1 calls
+        0 ms  Clean                                      1 calls
+        0 ms  BeforeCppClean                             1 calls
+        0 ms  CleanReferencedProjects                    1 calls
+        0 ms  CleanPublishFolder                         1 calls
+        0 ms  CppClean                                   1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        1 ms  AssignProjectConfiguration                 1 calls
+        2 ms  CoreClean                                  1 calls
+       64 ms  CoreCppClean                               1 calls
+
+Task Performance Summary:
+        0 ms  Message                                    2 calls
+        0 ms  ReadLinesFromFile                          1 calls
+        0 ms  FindUnderPath                              2 calls
+        0 ms  RemoveDuplicates                           1 calls
+        0 ms  Delete                                     4 calls
+        1 ms  WriteLinesToFile                           2 calls
+        1 ms  AssignProjectConfiguration                 1 calls
+        2 ms  MakeDir                                    2 calls
+       62 ms  CppClean                                   1 calls
+
+Build succeeded.
+
+Time Elapsed 00:00:00.18

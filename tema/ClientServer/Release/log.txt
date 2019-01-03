@@ -1,0 +1,19 @@
+Server started and listening on port 27015
+[LOGIN] User test (0) logged in
+Server started and listening on port 27015
+Server started and listening on port 27015
+Server started and listening on port 27015
+[AUTH] User test (0) failed to log in with password A
+[AUTH] User test (0) failed to log in with password AAAAAAAAAA
+[AUTH] User test (0) failed to log in with password AAAAAAAAAAAAAAAAAAAA
+[AUTH] User test (0) failed to log in with password AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[AUTH] User test (0) failed to log in with password AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Server started and listening on port 27015
+[LOGIN] User test (0) logged in
+[LOGOFF] User test (0) logged off
+Server started and listening on port 27015
+[EXCEPTION] ExceptionCode=0xc00000fd, EIP=0x34ddbb, ESP=0x6ff9c8
+[EXCEPTION] ExceptionCode=0xc0000005, EIP=0x34ddbb, ESP=0x6ff9c8
+[EXCEPTION] ExceptionCode=0xc0000005, EIP=0x34ddbb, ESP=0x6ff9c8
+[EXCEPTION] ExceptionCode=0xc0000005, EIP=0x34ddbb, ESP=0x6ff9c8
+[EXCEPTION] ExceptionCode=0xc0000005, EIP=0x34ddbb, ESP=0x6ff9c8
