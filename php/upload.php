@@ -2,8 +2,6 @@
 
 require 'session.php';
 
-SetContext(null, null);
-
 $target_dir = "uploads/";
 $target_file = htmlspecialchars($target_dir . basename($_FILES["fileToUpload"]["name"]));
 $uploadOk = 1;

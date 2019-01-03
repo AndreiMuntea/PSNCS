@@ -4,8 +4,6 @@ require 'session.php';
 
 function Ping()
 {
-    SetContext(null, null); // Actualize timestamp;
-    
     if(strcmp(GetContextRole(), "admin") != 0)
     {
         return "Ping command is available only for admin users";

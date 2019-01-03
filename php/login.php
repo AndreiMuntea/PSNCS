@@ -33,7 +33,7 @@ function CheckCredentials()
     $ctx = array(
         "user" => $username,
         "role" => $role,
-        "timestamp" => time()
+        "expirationDate" => (time() + 300)
     );
     
     $crypto = Encrypt(json_encode($ctx));

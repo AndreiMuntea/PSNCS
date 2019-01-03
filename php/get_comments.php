@@ -5,8 +5,6 @@ require 'session.php';
 
 function GetComments()
 {
-    
-    SetContext(null, null); // Actualize timestamp;
     $connection = new DatabaseConnection();
     $response = json_decode($connection->GetAllComments(), true);
     

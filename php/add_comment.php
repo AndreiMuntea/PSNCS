@@ -5,8 +5,6 @@ require 'session.php';
 
 function AddComment()
 {
-    SetContext(null, null); // Actualize timestamp;
-    
     if(empty($_POST) || !isset($_POST['comment']))
     {
         return;
